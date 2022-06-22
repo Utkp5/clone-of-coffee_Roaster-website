@@ -1,0 +1,578 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+* {
+  margin: 0;
+  /* background-color: #f7f7f7; */
+}
+#main_container {
+  margin: 0vw 5vw;
+  /* border: 2px solid; */
+}
+#logo {
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  align-items: center;
+  margin-top: 3vh;
+}
+
+a {
+  /* padding: 0vw 1vw; */
+  text-decoration: none;
+  color: #808080a6;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  /* margin: 0vw 1vw; */
+  padding: 0.5vw 0.5vw;
+}
+a:hover {
+  color: black;
+  transition: all 0.5s;
+}
+.card--great--coffee {
+  background-image: url(https://img.freepik.com/free-photo/top-view-roasted-coffee-beans_23-2148336748.jpg?w=900&t=st=1655386895~exp=1655387495~hmac=b28e7a5…);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 2px solid; */
+  width: 88.5vw;
+  border-radius: 22px;
+  height: 86vh;
+  /* margin: 11vh 4vh; */
+  /* padding: 153px 36px; */
+  margin: 5vw 0px;
+}
+.card p {
+  margin: 5vh 4vw;
+  width: 31vw;
+  font-size: larger;
+  line-height: 35px;
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
+}
+h1 {
+  margin-top: 19vh;
+  margin-left: 4vw;
+  font-size: 3vw;
+}
+button {
+  color: #fefcf7;
+  padding: 2vh 2vw;
+  border-radius: 10px;
+  font-family: "Fraunces", sans-serif;
+  margin: 3vh 4vw;
+  border: none;
+  font-size: larger;
+  background-color: #0e8684;
+}
+button:hover {
+  /* color: red; */
+  background: #66d2cf;
+  transform: scale(1.1);
+  cursor: pointer;
+  /* letter-spacing: 1px; */
+  transition: 0.5s;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+.collection__title {
+  text-align: center;
+  font-size: 14vw;
+  position: relative;
+  margin-top: 35vh;
+}
+.title-gradient {
+  /* border: 2px solid red; */
+  height: 21vh;
+  position: relative;
+  top: -27vh;
+  /* background: ghostwhite; */
+  /* background: linear-gradient(0deg,gray, transparent); */
+  background: linear-gradient(
+    0deg,
+    rgba(254, 252, 247, 0.8044818269) 25%,
+    rgba(254, 247, 247, 0) 100%
+  );
+}
+.collection {
+  display: flex;
+  margin-top: -35vh;
+  position: absolute;
+  left: 6vw;
+  right: 5vw;
+}
+.sub_collection {
+  padding: 0vw 2vw;
+}
+.collection_img {
+  width: 235px;
+  margin-bottom: 66px;
+}
+.collection_heading {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Fraunces", sans-serif;
+  margin-bottom: 34px;
+}
+.collection_sub_heading {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  color: dimgray;
+}
+/* banner */
+.banner {
+  background-color: #293039;
+  color: white;
+  height: 80vh;
+  width: 87.3vw;
+  margin-top: 40vh;
+  border-radius: 20px;
+}
+#banner_content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+  /* border: 2px solid; */
+  flex-direction: column;
+}
+.banner_p1 {
+  font-size: xxx-large;
+  font-family: "Fraunces", sans-serif;
+}
+.banner_p2 {
+  width: 36vw;
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 30px;
+  font-family: "Barlow", sans-serif;
+}
+.inside_banner {
+  height: 55vh;
+  width: 88.3vw;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fefcf7;
+  margin-top: 14vh;
+}
+.inside_banner_sub_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  border-radius: 13px;
+  background: #0e8684;
+}
+.inside_banner_sub_1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 7px 4px #0e8684;
+}
+.inside_banner_title {
+  font-size: 2vw;
+  font-family: "Fraunces", sans-serif;
+}
+.inside_banner_desc {
+  font-family: "Barlow", sans-serif;
+  width: 19vw;
+  text-align: center;
+}
+img {
+  width: 7vw;
+}
+/* banner */
+.section {
+  margin: 54vh 0vw;
+}
+.title {
+  font-size: xx-large;
+  font-family: "Fraunces", sans-serif;
+  color: rgb(131, 136, 143);
+  font-weight: 600;
+}
+.process {
+  margin: 15vh 0vw;
+  /* border: 2px solid blue; */
+  height: 10vh;
+  width: 87vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circle {
+  height: 4vh;
+  border: 2px solid #0e8684;
+  width: 2vw;
+  border-radius: 50%;
+  margin-right: 26vw;
+  background: white;
+}
+.line {
+  position: absolute;
+  z-index: -1;
+  width: 60vw;
+  height: 3px;
+  background-color: #fdd6ba;
+}
+.process_description {
+  display: flex;
+  /* border: 2px solid yellowgreen; */
+  justify-content: space-between;
+  margin-top: -9vh;
+}
+.process_desc {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: space-evenly;
+}
+.process_title {
+  font-size: x-large;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 600;
+}
+.process_title_desc {
+  font-size: larger;
+  width: 27vw;
+  font-family: "Barlow", sans-serif;
+}
+.number {
+  font-size: 83px;
+  font-family: "Fraunces", sans-serif;
+  color: #fdd6ba;
+  margin: 5vh 0vw;
+}
+#button {
+  font-size: x-large;
+  background: #0e8684;
+  cursor: pointer;
+  color: rgb(254, 252, 247);
+  outline: none;
+  border-radius: 4px;
+  padding: 2vh 2vw;
+  margin: 0vh 1vw;
+  border: none;
+}
+.button {
+  margin: 10vh -1vw;
+}
+
+.footer {
+  background-color: #09111a;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  justify-content: space-evenly;
+  height: 15vh;
+  align-items: center;
+}
+
+.svg {
+  fill: white;
+  width: 2vw;
+  margin: 0vh 2vw;
+}
+.svg:hover {
+  fill: #0e8684;
+  transition: 0.5s;
+  transform: scale(1.4);
+  cursor: pointer;
+}
+/* media queries */
+@media (max-width: 1248px) {
+  .banner {
+    margin-top: 311vh;
+  }
+  .collection {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -26vh;
+  }
+  .sub_collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .collection_img {
+    margin-top: 12vh;
+  }
+  .collection_sub_heading {
+    width: 45vw;
+    margin-bottom: 10vh;
+  }
+}
+@media (max-width: 900px) {
+  .card--great--coffee {
+    height: 65vh;
+  }
+  h1 {
+    margin-top: 0vh;
+  }
+  .card p {
+    margin: 1vh 4vw;
+  }
+  button {
+    margin: 1vh 4vw;
+  }
+}
+@media (max-width: 680px) {
+  .card--great--coffee {
+    height: 55vh;
+  }
+  .card p {
+    width: 47vw;
+    font-size: large;
+    line-height: 30px;
+  }
+  button {
+    font-size: large;
+  }
+}
+@media (max-width: 580px) {
+  .card--great--coffee {
+    height: 49vh;
+  }
+  button {
+    font-size: small;
+  }
+  .card p {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 546px) {
+  .navbar_elements {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .card--great--coffee {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  .card p {
+    font-size: 10px;
+    line-height: 19px;
+  }
+  button {
+    font-size: 2vw;
+    margin: 0vh 3vw;
+    width: 20vw;
+  }
+}
+/* collection media */
+@media (max-width: 600px) {
+  .collection__title {
+    margin-top: 15vh;
+    font-size: 11vw;
+  }
+  .collection {
+    margin-top: -15vh;
+  }
+  .collection_img {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    width: 34vw;
+  }
+  .collection_heading {
+    font-size: 4vw;
+  }
+  .banner {
+    margin-top: 235vh;
+  }
+}
+/* collection media */
+/* banner */
+@media (max-width: 1000px) {
+  .banner {
+    height: 130vh;
+  }
+  .banner_p1 {
+    font-size: 6vw;
+  }
+  .inside_banner {
+    margin-top: 1vh;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 82vh;
+  }
+  .inside_banner_sub_1 {
+    flex-direction: row;
+    width: 50vw;
+    padding: 42px;
+    margin: 1vh 0vw;
+    align-items: center;
+  }
+  .inside_banner_desc {
+    width: 21vw;
+  }
+  .section {
+    margin: 25vh 0vw;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    height: 145vh;
+  }
+  .inside_banner {
+    margin-top: 26vh;
+  }
+}
+@media (max-width: 676px) {
+  .banner {
+    margin-top: 323vh;
+  }
+}
+@media (max-width: 780px) {
+  .inside_banner {
+    height: 141vh;
+  }
+  .inside_banner_sub_1 {
+    flex-direction: column;
+    width: 33vw;
+    padding: 0;
+    height: 46vh;
+  }
+  .inside_banner_title {
+    font-size: 3vw;
+  }
+  .inside_banner_desc {
+    width: 27vw;
+  }
+  .section {
+    margin-top: 80vh;
+  }
+  .banner_p1 {
+    font-size: 5vw;
+  }
+  .banner_p2 {
+    font-size: 2.5vw;
+    width: 75vw;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    margin-top: 230vh;
+  }
+  .inside_banner {
+    margin-top: 0;
+  }
+}
+@media (max-width: 950px) {
+  .circle {
+    height: 5vh;
+    width: 3vw;
+  }
+}
+@media (max-width: 850px) {
+  .circle {
+    height: 4vh;
+    width: 3vw;
+  }
+}
+@media (max-width: 776px) {
+  .title {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .process {
+    visibility: hidden;
+  }
+  .process_description {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -31vh;
+  }
+  .process_desc {
+    align-items: center;
+  }
+  .process_title {
+    font-size: 4vw;
+  }
+  .process_title_desc {
+    text-align: center;
+    width: 66vw;
+    font-size: 3vw;
+  }
+  .button {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .number {
+    font-size: 13vw;
+  }
+  #button {
+    font-size: 2vw;
+  }
+  .banner {
+    margin-top: 240vh;
+  }
+  .inside_banner_desc {
+    font-size: 4vw;
+  }
+  .collection_img {
+    width: 44vw;
+  }
+}
+@media (max-width: 606px) {
+  .footer {
+    flex-direction: column;
+  }
+  #logo {
+    width: 35vw;
+  }
+  a {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 700px) {
+  .inside_banner {
+    height: 169vh;
+  }
+  .inside_banner_sub_1 {
+    width: 50vw;
+    height: 71vh;
+  }
+  .inside_banner_title {
+    font-size: 5vw;
+  }
+  .inside_banner_desc {
+    width: 46vw;
+  }
+}
+@media (max-width: 300px) {
+  .card--great--coffee {
+    height: 26vh;
+  }
+  .banner {
+    margin-top: 215vh;
+  }
+  .card p {
+    font-size: 6px;
+    line-height: 14px;
+  }
+  button {
+    font-size: 1.5vw;
+    padding: 1vh 1vw;
+  }
+}
+
+/* media queries */
